@@ -1,4 +1,8 @@
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+.main-img > img {
+    max-width: 100%;
+}
+
 @media only screen and (min-width: 569px) and (max-width: 768px) {
 .main-img > img {
     width: 100%;
